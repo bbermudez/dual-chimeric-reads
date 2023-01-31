@@ -11,8 +11,18 @@ nextflow configuration:
 `process.executor = 'sge'`
 
 
-TO DO:
+TO DO (arranged from short to long term):
+
+[] Can I clone the repo within the cluster?
 
 [] test echo 'hostname' on a nextflow script, set executor as sge.
 
 [] test echo 'hostname' on a nextflow script.
+
+
+...
+
+
+[] think of portability, how to use docker to help the user
+
+[]  
