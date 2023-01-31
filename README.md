@@ -11,6 +11,10 @@ nextflow configuration:
 `process.executor = 'sge'`
 
 
+![alt text](https://github.com/bbermudez/dual-chimeric-reads/blob/main/workflow.png?raw=true)
+
+
+
 ## TO DO (arranged from short to long term):
 
 [x] Can I clone the repo within the cluster? RE: Yes, you can
