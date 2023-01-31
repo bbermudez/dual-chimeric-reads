@@ -5,8 +5,14 @@ The aim of this repository is to be able to process chimeric reads resulting fro
 Disclaimer: These tools are under construction
 
 I am building this tools using a conda environment with Nextflow.
+
+nextflow configuration:
+
 `process.executor = 'sge'`
 
+
 TO DO:
-[] test echo 'hostname' on a nextflow script, set executor as sge
-[] test echo 'hostname' on a nextflow script
+
+[] test echo 'hostname' on a nextflow script, set executor as sge.
+
+[] test echo 'hostname' on a nextflow script.
