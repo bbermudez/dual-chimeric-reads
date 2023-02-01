@@ -14,7 +14,7 @@ Cloning the repository is very standard. You will need to have git installed.
 git clone https://github.com/bbermudez/dual-chimeric-reads.git
 ```
 
-I am building this tool using a conda environment with Nextflow.
+I am building this tool using a conda environment with Nextflow. Therefore you'll need to have conda installed.
 
 Here are some instructions to create such environment. Bare in mind that you can name your environment as you like (e.g. nextflow, nf, etc)
 
@@ -37,7 +37,7 @@ I set the executor to sge in a nextflow configuration file:
 
 If you run locally then you may omit this step, his is part of the beauty of nextflow.
 
-*last nextflow execution I ran*
+**last nextflow execution I ran**
 
 ```
 nextflow run process_fastq.nf -c process_fastq.config -process.echo
@@ -85,15 +85,23 @@ At the moment I'm editing the script in the cluster with either nano or vim, but
 
 ...
 
+[] make a toy example data that is packed along with the repository.
+
+  [] a couple of read files with 100 seqs each: 10 chimeric, 50 loose srna, 30 loose target, 10 unmapped
+
+  [] two very small genomes, decide if true genome (yeast? 12 Mb) or fake
+
+  [] what do other tools do?
 
 [] is there a code out there to check that a file is truly fastq?
 
 [] make a process FindChimericReads
-.[] label reads as
+
+  [] label reads as chimeric, loose sRNA, loose target, or unmapped. The first three categories should be applied to both host and parasite.   
 
 [] think: consequences of aligning to a mixed host & parasite sRNA db vs aligning to separate databases
 
-[] think of portability, how to use docker or singularity to help the user with dependencies
+[] portability: how to use docker or singularity to help the user with dependencies
 
 [] wildest dream: include pipeline into nf-core as nf-core/dual-chimeric-reads
 
