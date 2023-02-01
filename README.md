@@ -65,6 +65,8 @@ At the moment I'm editing the script in the cluster with either nano or vim, but
 
 [x] define a process that uses the reads channel previously defined
 
+[x] set nextflow syntax highlight on vim
+
 []
 
 ## TO DO (arranged from short to long term):
