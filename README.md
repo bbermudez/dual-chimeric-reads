@@ -69,6 +69,8 @@ At the moment I'm editing the script in the cluster with either nano or vim, but
 
 ## TO DO (arranged from short to long term):
 
+[] can I clone the repository into another location and delete the former one, without messing up what's online?
+
 [] specify an input directory with parameters, how to avoid using a fixed whole path?
 
 [] Find input file extension (fq, fastq, fq.gz or fastq.gz), can I use globbing?
