@@ -83,6 +83,8 @@ At the moment I'm editing the script in the cluster with either nano or vim, but
 
 [] align reads to miRBase host miRNAs (mature?, hairpins?)
 
+[] have a look at the tsv files that other nf-core pipelines such as rnaseq, chipseq or atacseq require.
+
 ...
 
 [] make a toy example data that is packed along with the repository.
