@@ -23,7 +23,12 @@ conda create -n nextflow
 conda activate nextflow
 conda install -c conda-forge openjdk
 conda install -c bioconda nextflow
+conda install nf-core
+conda install -c conda-forge singularity
 ```
+
+It is worth installing nf-core since this will allow to manage Nextflow modules. It is also nice to install singularity which will mange containers needed throughout the worflow.
+
 
 After creating it, you just need to activate it as follows
 
@@ -79,11 +84,13 @@ At the moment I'm editing the script in the cluster with either nano or vim, but
 
 [] specify an output directory with parameters
 
-[] specify a conda environment to use within a process
+[] use nf-core module to run fastqc
+
+[] specify a conda environment to use within a process, not best practice
 
 [] run fastqc on all input fastq files
 
-[] run cutadapt on all input fastq files
+[] use nf-core module to run cutadapt on all input fastq files
 
 [] align reads to miRBase host miRNAs (mature?, hairpins?)
 
